@@ -1,6 +1,6 @@
 /*<!-- Geef in je external CSS hoogte en breedte (height/width) van 100 pixels(px) en de kleur (background-color) coral, blue en purple. -->*/
-header {
-    margin: 10px 0px 10px
+div.title {
+    padding: 10px 0px -1500px;
 }
 body {
     color:white;
@@ -12,17 +12,17 @@ body {
 }
 
 div.coral{
-    background-color:"coral";
+    background-color:'coral';
     width: 100px;
     height: 100px;    
 }
 div.blue{
-    background-color:"blue";
+    background-color:'blue';
     width: 100px;
     height: 100px;     
 }
 div.purple{
-    background-color:"purple";
+    background-color:'purple';
     width: 100px;
     height: 100px;     
 }
