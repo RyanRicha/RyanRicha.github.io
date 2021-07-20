@@ -1,7 +1,10 @@
 /*<!-- Geef in je external CSS hoogte en breedte (height/width) van 100 pixels(px) en de kleur (background-color) coral, blue en purple. -->*/
+header {
+    margin: 0px 0px -50px
+}
 body {
     color:white;
-    font:Courier-New;
+    font:'Courier New';
     background-color: black;
     border-style:groove;
     border-color: green;
