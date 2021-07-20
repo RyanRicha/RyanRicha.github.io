@@ -3,7 +3,7 @@ html *
 {
     font: Courier-New;
     background-color: black;
-    p.groove border-style: groove;
+    border-style:groove;
     border-color: green;
     border-width: 5px;
 }
