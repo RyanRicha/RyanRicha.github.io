@@ -1,5 +1,8 @@
 /*<!-- Geef in je external CSS hoogte en breedte (height/width) van 100 pixels(px) en de kleur (background-color) coral, blue en purple. -->*/
 body {
+    color:white;
+}
+body {
     font:Courier-New;
     color:white;
     background-color: black;
