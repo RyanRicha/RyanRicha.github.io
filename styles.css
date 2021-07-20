@@ -10,17 +10,18 @@ body {
     border-color: green;
     border-width: 5px;
 }
-.coral{
+
+div.coral{
     background-color:"coral";
     width: 100px;
     height: 100px;    
 }
-.blue{
+div.blue{
     background-color:"blue";
     width: 100px;
     height: 100px;     
 }
-.purple{
+div.purple{
     background-color:"purple";
     width: 100px;
     height: 100px;     
