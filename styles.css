@@ -1,0 +1,10 @@
+<!-- Geef in je external CSS hoogte en breedte (height/width) van 100 pixels(px) en de kleur (background-color) coral, blue en purple. -->
+html * 
+{
+    font: Courier-New;
+    background-color: black;
+    p.groove {border-style: groove;
+    border-color: green;
+    border-width: 5px;
+}
+
