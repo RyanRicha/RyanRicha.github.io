@@ -2,7 +2,7 @@
 div.title {
     padding: 10px 0px -1500px;
 }
-div {
+div.main {
     color:white;
     font-family:'Courier New';
     border-style:groove;
@@ -10,22 +10,21 @@ div {
     border-width: 5px;
     width: 300px;
     height: 300px;
-    margin: 0px;
     background-color: black;
 }
 
 div.coral{
-    background-color:'coral';
+    background-color:coral;
     width: 100px;
     height: 100px;    
 }
 div.blue{
-    background-color:'blue';
+    background-color:blue;
     width: 100px;
     height: 100px;     
 }
 div.purple{
-    background-color:'purple';
+    background-color:purple;
     width: 100px;
     height: 100px;     
 }
