@@ -9,3 +9,10 @@
     margin: 0px;  
     margin-bottom: 10px!important;
   }
+.carousel{
+  height: 500px;
+  width: 500px;
+  position:center;
+  margin-top: 0px;
+  margin-left: 0px;
+}
