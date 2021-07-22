@@ -1,37 +1,11 @@
 /*<!-- Geef in je external CSS hoogte en breedte (height/width) van 100 pixels(px) en de kleur (background-color) coral, blue en purple. -->*/
-div.main {
-    color:white;
-    font-family:'Courier New';
+.body {
+    color:lightcoral;
     border-style:groove;
     border-color: green;
     border-width: 5px;
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    padding: 50px;
-}
-
-div.coral{
-    background-color:coral;
-    width: 100px;
-    height: 100px;
-    margin: 20px; 
-    display: inline-block;
-}
-div.blue{
-    background-color:blue;
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    display: inline-block;
-}
-div.purple{
-    background-color:purple;
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    display: inline-block;
-}
-
-/*div class="";
-div class="purple">;*/
+  }
+  .nav{
+    margin: 0px;  
+    margin-bottom: 10px!important;
+  }
