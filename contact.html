@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav id="topnav">
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="history.html">History</a></li>
+                <li> <a href="https://bmwrtforum.nl">BMW RT forum</a></li>
+                <li> <a href="https://nl.wikipedia.org/wiki/BMW_R_1200-serie">BMW Wiki pagina</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+
+            <h1>
+                Contactformulier
+            </h1>
+
+            <h2>
+                Motorrijders unite ;-)
+            </h2>
+
+        </article>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Hoe heet je?: <br><input type="text" name="naam" /></label>
+            </p>
+            <p>
+                <label>E-mailadres: <br><input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <br><input type="tel" name="telefoonnummer" /></label>
+            </p>
+            <p>
+                <label>Leeftijd: <br><input type="number" name="leeftijd" /></label>
+            </p>
+            <p>
+                <label>Vanaf wanneer rij je motor (of wil je motor rijden)? <br><input type="date"
+                        name="Motorrijden sinds of per" /></label>
+            </p>
+            <p>
+                <label>RT of GS liefhebber?</label><br>
+                <input type="radio" name="voorkeur model">
+                <label for="RT">RT</label><br>
+                <input type="radio" name="voorkeur model">
+                <label for="GT">GT</label><br>
+                <input type="radio" name="voorkeur model">
+                <label for="Geen voorkeur">Geen voorkeur</label><br>
+            </p>
+
+            <p>
+                <label for="motorcolor">Favoriete motorkleur<br></label>
+                <input type="color" id="motorcolor" name="motorcolor">
+            </p>
+
+            <p>
+                <label>Opmerkingen: <br><textarea name="opmerkingen"></textarea></label>
+            </p>
+
+            <p>
+                <button type="reset">Opnieuw</button>
+                <button type="submit">Versturen</button>
+                <br>
+            </p>
+
+            <br>
+        </form>
+    </main>
+    <footer>
+        <p><a href="index.html">Ga terug naar de homepage</a></p>
+    </footer>
+
+
+</body>
+
+
+</html>
